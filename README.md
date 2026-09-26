@@ -201,7 +201,7 @@ Vui lòng cài đặt các công cụ dưới đây **trước Buổi 1 (Session
 #### 🪟 Windows (MSYS2 + MinGW-w64)
 
 1. Tải về và chạy bộ cài đặt từ [msys2.org](https://www.msys2.org/) (sử dụng đường dẫn mặc định `C:\msys64`).
-2. Mở **MSYS2 UCRT64** từ Start Menu và cài đặt GCC, Make, cùng Raylib:
+2. Mở **MSYS2 UCRT64** từ Start Menu và cài đặt GCC, Make và Raylib:
 
 ```bash
 pacman -Syu
@@ -287,7 +287,7 @@ cd mario-forensic-workshop
 
 ### 🧪 Environment Verification (Kiểm tra môi trường)
 
-Biên dịch (compile) và chạy tệp `test_raylib.c` đi kèm bằng lệnh tương ứng với hệ điều hành của bạn:
+Biên dịch (compile) và chạy tệp `test_raylib.c` bằng lệnh phù hợp với hệ điều hành của bạn:
 
 - **Windows (Command Prompt / PowerShell):**
 
@@ -319,12 +319,12 @@ Nếu một cửa sổ đồ họa hiện lên hiển thị một hình vuông m
 
 ## 📅 Workshop Overview at a Glance (Tổng quan Nhanh về Khóa học)
 
-| Session (Buổi) | Focus Area (Nội dung Trọng tâm)               | Core Objective (Mục tiêu Cốt lõi)                                                                                                                                  |
-| -------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Session 1**  | Matrix & Hero (Ma trận & Nhân vật chính)      | Xây dựng grid (lưới) C 10x10, di chuyển người chơi bằng phím WASD, và boundary logic (logic giới hạn biên).                                                        |
-| **Session 2**  | Predator & Key (Kẻ săn mồi & Chìa khóa)       | Implement (triển khai) logic truy đuổi theo FSM của Goomba và mechanics (cơ chế) mở khóa Cổng-Chìa khóa.                                                           |
-| **Session 3**  | Raylib UI Integration (Tích hợp UI Raylib)    | Map (Ánh xạ/Kết nối) backend console logic (logic xử lý chìm trên dòng lệnh) sang một cửa sổ đồ họa Raylib.                                                        |
-| **Session 4**  | Independent Architect (Kiến trúc sư Độc lập)  | Thiết kế và assemble (lắp ráp) một ứng dụng UI 10x10 nguyên bản của riêng bạn sử dụng AI.                                                                          |
-| **Session 5**  | Pro-Dev Finish (Hoàn thiện cấp Chuyên nghiệp) | Refactor code (tái cấu trúc mã), thêm sound FX (hiệu ứng âm thanh), chạy "Bug Bounties" (săn lỗi nhận thưởng) cùng bạn bè, và showcase (trình diễn) dự án của bạn. |
+| Session (Buổi) | Focus Area (Nội dung Trọng tâm)              | Core Objective (Mục tiêu Cốt lõi)                                                                           |
+| -------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Session 1**  | Matrix & Hero (Ma trận & Nhân vật chính)     | Xây dựng grid (lưới) C 10x10, di chuyển người chơi bằng phím WASD, và boundary logic (logic giới hạn biên). |
+| **Session 2**  | Predator & Key (Kẻ săn mồi & Chìa khóa)      | Implement (triển khai) logic truy đuổi theo FSM của Goomba và mechanics (cơ chế) mở khóa Cổng-Chìa khóa.    |
+| **Session 3**  | Raylib UI Integration (Tích hợp UI Raylib)   | Map (Ánh xạ/Kết nối) backend console logic (logic xử lý chìm trên dòng lệnh) sang một cửa sổ đồ họa Raylib. |
+| **Session 4**  | Independent Architect (Kiến trúc sư Độc lập) | Thiết kế và assemble (lắp ráp) một ứng dụng UI 10x10 nguyên bản của riêng bạn sử dụng AI.                   |
+| **Session 5**  | Finish (Hoàn thiện)                          | Debug code (sửa lỗi code), và showcase (trình diễn) dự án của bạn.                                          |
 
 ---
