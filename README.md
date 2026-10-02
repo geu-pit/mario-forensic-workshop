@@ -153,12 +153,12 @@ Nếu một cửa sổ đồ họa hiện lên hiển thị một hình vuông m
 
 ## 📅 Workshop Overview at a Glance (Tổng quan Nhanh về Khóa học)
 
-| Session (Buổi) | Focus Area (Nội dung Trọng tâm)              | Core Objective (Mục tiêu Cốt lõi)                                                                           |
-| -------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Session 1**  | Matrix & Hero (Ma trận & Nhân vật chính)     | Xây dựng grid (lưới) C 10x10, di chuyển người chơi bằng phím WASD, và boundary logic (logic giới hạn biên). |
-| **Session 2**  | Predator & Key (Kẻ săn mồi & Chìa khóa)      | Implement (triển khai) logic truy đuổi theo FSM của Goomba và mechanics (cơ chế) mở khóa Cổng-Chìa khóa.    |
-| **Session 3**  | Raylib UI Integration (Tích hợp UI Raylib)   | Map (Ánh xạ/Kết nối) backend console logic (logic xử lý chìm trên dòng lệnh) sang một cửa sổ đồ họa Raylib. |
-| **Session 4**  | Independent Architect (Kiến trúc sư Độc lập) | Thiết kế và assemble (lắp ráp) một ứng dụng UI 10x10 nguyên bản của riêng bạn sử dụng AI.                   |
-| **Session 5**  | Finish (Hoàn thiện)                          | Debug code (sửa lỗi code), và showcase (trình diễn) dự án của bạn.                                          |
+| Session (Buổi) | Focus Area (Nội dung Trọng tâm)              | Core Objective (Mục tiêu Cốt lõi)                                                       |
+| -------------- | -------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **Session 1**  | Matrix & Hero (Ma trận & Nhân vật chính)     | Xây dựng grid, di chuyển Mario bằng phím WASD, và boundary logic (logic giới hạn biên). |
+| **Session 2**  | Predator & Key (Kẻ săn mồi & Chìa khóa)      | Triển khai logic truy đuổi theo FSM của Goomba và cơ chế mở khóa Cổng-Chìa khóa.        |
+| **Session 3**  | Raylib UI Integration (Tích hợp UI Raylib)   | Kết nối logic xử lý trên dòng lệnh sang một cửa sổ đồ họa.                              |
+| **Session 4**  | Independent Architect (Kiến trúc sư Độc lập) | Thiết kế và phát triển một tựa game nguyên bản của riêng bạn sử dụng AI.                |
+| **Session 5**  | Finish (Hoàn thiện)                          | Debug code và showcase dự án của bạn.                                                   |
 
 ---
