@@ -1,0 +1,23 @@
+Hãy viết và compile cho tôi một chương trình C mô phỏng game Mario giải cứu công chúa với các yêu cầu kỹ thuật sau:
+
+BẢN ĐỒ:
+- Bản đồ dạng lưới (grid) kích thước 20 cột x 10 hàng,
+- Viền ngoài cùng của bản đồ là tường (ký tự '#'), không thể đi xuyên qua.
+- Ô trống là khoảng trắng ' '.
+
+Các nhân vật:
+- Gồm hai nhân vật Mario (M) và Princess (P)
+- Mỗi nhân vật được định nghĩa bởi vị trí x, y tương ứng trên bản đồ
+- Mario: sinh ra tại một vị trí cố định gần góc trên-trái bản đồ (ví dụ x=2, y=2)
+- Princess: bị "giam" trong một khu vực 3x3 có tường bao quanh trong bản đồ, Princess đứng yên
+
+DI CHUYỂN:
+- Cho phép người chơi di chuyển Mario bằng phím W/A/S/D
+- Trước khi cập nhật vị trí của Mario, phải kiểm tra tường/biên 
+- Sau mỗi lần di chuyển, vẽ lại toàn bộ map
+
+YÊU CẦU CODE STYLE:
+- Tách riêng các hàm rõ ràng
+- KHÔNG dùng biến global bừa bãi.
+- Comment ngắn gọn cho các hàm và logic
+- Không tối ưu hóa hay rút gọn code, ưu tiên code dễ đọc, dễ trace hơn là code ngắn gọn.
